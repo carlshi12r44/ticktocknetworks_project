@@ -5,23 +5,24 @@ in my game version, the player is a green ball, and the obstacles are red rectan
 
 ### structure
 
-    * enemy.py
-        * class for Obstacles
-    * game_attributes.py
-        - attributes for game
-    * main.py
-        - main driver program to start the game
-    * player.py
-        - player class for the player
-    * world.py
-        - world setup for the game
-    * requirements.txt
-        - required packages
+- src
+  - enemy.py
+    > class for Obstacles
+  - game_attributes.py
+    > attributes for the game
+  - main.py
+    > main driver program to start the game
+  - player.py
+    > player class for the player
+  - world.py
+    > world setup for the game
+  - requirements.txt
+    > required packages
 
 ### How to run the project
 
-    1. `pip install -r requirements.txt`
-    2. in `main.py` hit run if you have IDE (I am using visual studio code) or `python main.py` in the terminal when you are at the source directory
+1. `pip install -r requirements.txt` to install all the packages
+2. in `main.py` hit run if you have IDE (I am using visual studio code) or `python main.py` in the terminal when you are at the source directory
 
 # Released under MIT License
 
