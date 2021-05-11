@@ -21,7 +21,7 @@ in my game version, the player is a green ball, and the obstacles are red rectan
 
 ### environment
 
-this project assumes you are running under python 3.7
+this project assumes you are running under python 3.7 and under macOS, so recommend using macOS and start the instructions below
 
 ### How to run the project
 
