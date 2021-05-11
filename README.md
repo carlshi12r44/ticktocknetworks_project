@@ -19,10 +19,15 @@ in my game version, the player is a green ball, and the obstacles are red rectan
   - requirements.txt
     > required packages
 
+### environment
+
+this project assumes you are running under python 3.7
+
 ### How to run the project
 
-1. `pip install -r requirements.txt` to install all the packages
-2. in `main.py` hit run if you have IDE (I am using visual studio code) or `python main.py` in the terminal when you are at the source directory
+1. `conda create -n ticktocknetwork_env python=3.7 anaconda` to install a new virtual env
+2. `pip install -r requirements.txt` to install all the packages
+3. in `main.py` hit run if you have IDE (I am using visual studio code) or `python main.py` in the terminal when you are at the source directory
 
 # Released under MIT License
 
