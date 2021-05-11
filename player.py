@@ -2,6 +2,9 @@ from game_attributes import Attributes
 import pygame
 class Player:
     def __init__(self):
+        """
+        Player class initialization
+        """
         self.attrs = Attributes()
         self.size = self.attrs.player_size
         self.color = self.attrs.player_color

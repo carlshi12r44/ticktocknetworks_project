@@ -3,6 +3,9 @@ import random
 import pygame
 class Enemy:
     def __init__(self):
+        """
+        init for Enemy class
+        """
         self.attrs = Attributes()
         self.size = self.attrs.enemy_size
         self.speed = self.attrs.enemy_speed
@@ -13,7 +16,7 @@ class Enemy:
     def move(self): 
         """simply let the enemy fall"""
         self.position = (self.position[0], self.position[1] + self.speed)
-        
+
     def get_rect(self):
         """
         form the enemy as rectangle pygame object
